@@ -98,7 +98,7 @@ class BottomText extends StatelessWidget {
       padding: const EdgeInsets.only(bottom: 13),
       child: DefaultTextStyle(
         style: TextStyle(
-            fontFamily: 'Encode Sans', color: Colors.white, fontSize: 23),
+            fontFamily: 'Encode Sans', color: Colors.white70, fontSize: 23),
         child: AnimatedTextKit(
           animatedTexts: _words
               .map((text) => TypewriterAnimatedText(text, speed: _textDuration))
@@ -118,11 +118,11 @@ class DrawTriangle extends CustomPainter {
   }
   @override
   void paint(Canvas canvas, Size size) {
-    var path = Path();
-    path.moveTo(0, 0);
-    path.lineTo(0, size.height);
-    path.lineTo(size.height / 1.6, size.height / 2);
-    path.close();
+    var path = Path()
+      ..moveTo(0, 0)
+      ..lineTo(0, size.height)
+      ..lineTo(size.height / 1.6, size.height / 2)
+      ..close();
     canvas.drawPath(path, _paint);
   }
 
