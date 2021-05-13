@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:free_palestine/palestine_flag.dart';
+import 'palestine_flag.dart';
 
 void main() => runApp(MyApp());
 
