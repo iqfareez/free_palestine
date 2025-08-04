@@ -1,6 +1,6 @@
 # Free Palestine Flutter
 
-I made a Palestenian flag using FLutter widgets. No dependencies.
+I made a Palestinian flag using Flutter widgets. No dependencies.
 
 ## Live demo
 
